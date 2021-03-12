@@ -1,0 +1,35 @@
+li {
+  list-style: none;
+  text-decoration: none;
+}
+li a {
+  margin: 0 15px;
+  color: #576574;
+}
+.rootHeader {
+  background-image: url("./header.png");
+  background-size: 100%;
+  min-height: 300px;
+  background-repeat: no-repeat;
+}
+.head {
+  padding-top: 6%;
+  color: #fff;
+}
+.top {
+  font-size: 80px;
+}
+
+@media (max-width: 767.98px) {
+  .top {
+    font-size: 40px;
+  }
+  .rootHeader {
+    min-height: 25%;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+}
